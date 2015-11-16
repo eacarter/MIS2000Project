@@ -1,0 +1,884 @@
+﻿div#menu-container.small-screen {
+    position: fixed;
+}
+
+div#menu-container.small-screen > ul,
+ul#menu-list {
+    position: fixed;
+}
+
+div.frame.start {
+	/*background-image: url('../Images/Home/redesign/Homepage_Main1_Small.png?ver=1.0.5739.22391');*/
+    background-image: url('../Images/Home/redesign/home-slide-full.jpg?ver=1.0.5739.22391');
+}
+
+div.frame.createCode {
+    background-image: url('../Images/Home/redesign/homesoftwaredev.jpg?ver=1.0.5739.22391');
+}
+
+div.frame.madison {
+	background-image: url('../Images/Home/redesign/cphomemadison.jpg?ver=1.0.5739.22391');
+}
+
+div.frame.whatWeDo {
+    background-image: url('/Images/Home/redesign/home-slide-full-whatwedo.jpg?ver=1.0.5739.22391');
+}
+
+div.frame.lifeAtEpic {
+    /*background-image: url('/Images/Home/redesign/home-slide-full-lifeatepic.jpg?ver=1.0.5739.22391');*/
+    /*background-image: url('/Images/Home/redesign/cp-home-lifeatepiclarge.jpg?ver=1.0.5739.22391');*/
+    background-image: url('/Images/Home/redesign/home-slide-lifeatepic-ugm-full.jpg?ver=1.0.5739.22391');
+}
+
+div.frame.benefits {
+    /*background-image: url('../Images/Home/redesign/cphomebenefits-2.jpg?ver=1.0.5739.22391');*/
+    background-image: url('/Images/Home/redesign/home-slide-benefits-beach-full.jpg?ver=1.0.5739.22391');
+}
+
+div.frame.jobs {
+    /*background-image: url('/Images/Home/redesign/cp-home-jobs2large.jpg?ver=1.0.5739.22391');*/
+    background-image: url('/Images/Home/redesign/cp-home-jobsnewlarge.jpg?ver=1.0.5739.22391');
+}
+
+div.frame div.blurbBox {
+	background-color: white;
+    color: #818083;
+    opacity: .8;
+	position: relative;
+	left: 85px;
+	top: 100px;
+	padding: 25px;
+    z-index: 3;
+    /*text-align: center;*/
+}
+
+div.frame.start div.blurbBox {
+    width: 400px;
+    background-color: transparent;
+    padding-top: 100px;
+    top: 0px;
+}
+
+svg#bowTie {
+    /*width: 450px;
+    height: 500px;*/
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    z-index: -1;
+}
+
+svg#bowTie path {
+    fill: white;
+}
+
+div.blurbBox div.megaHeader {
+    color: #ba122b;
+    font-size: 60px;
+    line-height: 40px;
+    /*margin-left: -10px;*/
+}
+
+div.blurbBox span.blurbText {
+    font-size: 1.5rem;
+}
+
+div.blurbBox span.awardLink {
+    color: #ba122b;
+    margin-left: .5rem;
+}
+
+div.blurbBox span.blurbSource {
+    width: 100%;
+    color: #ba122b;
+    text-align: right;
+    display: block;
+}
+
+img.awardIcon {
+    margin-top: -5px;
+}
+
+a.splashLink {
+    color: #ba122b;
+    font-weight: 400;
+}
+
+a.splashLink:hover {
+    color: #df464F;
+}
+
+div#interestedContainer {
+    width: 100%;
+    text-align: right;
+    padding-top: 1.5rem;
+}
+
+div#applyNowContainer {
+    width: 100%;
+    text-align: center;
+    padding-top: 2.5rem;
+    font-size: 1.5rem;
+    margin-bottom: 50px;
+}
+
+a#interested,
+a#applyNow {
+    border: 2px solid #ba122b;
+    color: #ba122b;
+    padding: .5rem;
+    transition: all .3s ease;
+}
+
+a#interested:hover,
+a#applyNow:hover {
+    background-color: #ba122b;
+    color: white;
+}
+
+div.blurbBox div.landingBigHeadline {
+    text-transform: uppercase;
+    border-top: 2px solid #ba122b;
+    border-bottom: 2px solid #ba122b;
+}
+
+div.blurbBox div.fill-text-width {
+    width: 100%;
+}
+
+div.blurbBox div.transparent {
+    opacity: 0;
+}
+
+div.caption-fade-black {
+    position: absolute;
+    left: 0;
+    height: 200px;
+    width: 100%;
+    top: 0;
+    z-index: 1;
+    background: -moz-linear-gradient(top,  rgba(0,0,0,1) 0%, rgba(0,0,0,0) 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(0,0,0,1)), color-stop(100%,rgba(0,0,0,0))); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top,  rgba(0,0,0,1) 0%,rgba(0,0,0,0) 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top,  rgba(0,0,0,1) 0%,rgba(0,0,0,0) 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top,  rgba(0,0,0,1) 0%,rgba(0,0,0,0) 100%); /* IE10+ */
+    background: linear-gradient(to bottom,  rgba(0,0,0,1) 0%,rgba(0,0,0,0) 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#00000000',GradientType=0 ); /* IE6-9 */
+}
+
+div.caption-fade-white {
+    position: absolute;
+    left: 0;
+    height: 200px;
+    width: 100%;
+    top: 0;
+    z-index: 1;
+    background: -moz-linear-gradient(top,  rgba(255,255,255,1) 0%, rgba(255,255,255,0) 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(255,255,255,1)), color-stop(100%,rgba(255,255,255,0))); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(255,255,255,0) 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(255,255,255,0) 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(255,255,255,0) 100%); /* IE10+ */
+    background: linear-gradient(to bottom,  rgba(255,255,255,1) 0%,rgba(255,255,255,0) 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#00ffffff',GradientType=0 ); /* IE6-9 */
+}
+
+div.caption {
+    position: absolute;
+    top: 52px;
+    right: 30%;
+    padding: .5rem 1rem;
+    z-index: 5;
+    font-style: italic;
+}
+
+div.caption-fade-white div.caption span.caption-text {
+    color: black;
+}
+
+div.caption-fade-black div.caption span.caption-text {
+    color: white;
+}
+
+div#mainContent.Careers2 div#cardiogram.move {
+	position: absolute;
+}
+
+div#footer.Careers2 div#extraLinks {
+	display: none;
+}
+
+/*start Careers3 */
+
+div#topBannerContainer.row.Careers3 {
+	display: none;
+}
+
+div#mainContainer.Careers3 {
+	/*height: calc(100vh - 41px);*/
+    height: 93vh;
+	  
+    left: 0;
+    right: 0;
+   margin-top: 55px;
+}
+
+div.tubackground h2{
+    font-style: normal;
+}
+
+div#mainContainer.tutorpage {
+    /*height: calc(100vh - 41px);*/
+    height: 93vh;
+    left: 0;
+    right: 0;
+   margin-top: 55px;
+   
+    background-color: #f1c40f;
+
+}
+
+div#mainContent.Careers3 {
+	left: 0px;
+	height: 100%;
+	/*width: calc(100vw * 4);*/
+	width: 999999999px;
+	margin-left: -50vw;
+	/*background-color: green;*/
+}
+
+div.transbox{
+  background-color: #FFFFFF;
+  border: 1px solid black;
+  opacity: .6;
+  margin-right: 60%;
+  
+  margin-left: 5%;
+  padding-right: 50px;
+  padding-left: 50px;
+}
+
+div.transbox p{
+  margin: 5%;
+  color: #000000;
+  font-weight: bold;
+}
+
+div.tubox{
+margin-right: 10%;
+margin-left: 10%;
+color: #ffffff;
+background-color:#000000 ;
+}
+
+div.tubox img{
+float: left;
+height: 200px;
+-webkit-transform: rotate(180deg);
+
+}
+
+#romako{
+-webkit-transform: rotate(180deg); 
+}
+
+div.tubox1 img{
+float:left;
+height: 200px;
+}
+div.tuexp {
+float: right;
+}
+
+div.tupara {
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+div.background{
+
+  background-image: url("../img/home_page.jpg");
+  height: 100%;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+
+div#mainContent.Careers3 div.frame {
+	/*height: calc(100vh - 41px + 400px); /* full screen - footer height + overlay height*/
+	/*backgroudiv.middleInfo {nd-size: auto 100vh;*/
+	/*width: 100vw;*/
+	height: 100%;
+	width: 200vw;
+	position: relative;
+	float: left;
+	padding-left: 50vw;
+
+	/* my code
+	background-size: 100vw 100%;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;*/
+
+	/* code from http://stradegyadvertising.com/css-create-fullscreen-background-image/ */
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+	background-attachment: fixed;
+	background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	-webkit-background-size: cover;
+}
+
+div.tubackground{
+
+    background-color: #f1c40f;
+    height:100%;
+}
+
+div#cardiogramContent {
+    height: 100%;
+}
+
+/*div#mainContainer {}*/
+
+div#mainContent.Careers3 div#cardiogram.fix {
+}
+
+div#footer.Careers3 div#extraLinks {
+    display: none;
+}
+
+#cardiogramLines line {
+	stroke-width: 2;
+}
+
+#cardiogramLines line.gray {
+	stroke:rgb(186,186,186);
+}
+
+#cardiogramLines line.red {
+	stroke: #ba122b;
+}
+
+#cardiogramLines line.hide {
+	/*display: none;*/
+}
+
+img.cgBg {
+    display: none; /*hide by default*/
+    z-index: 1;
+}
+
+img.cgIcon {
+    z-index: 2;
+}
+
+img.cgIcon, img.cgBg {
+	position: absolute;
+	top: 15px;
+	width: 50px;
+	height: 50px;
+	margin-left: 0px;
+	opacity: .3;
+	transition: all 0.25s ease;
+}
+
+img.cgIcon:hover, img.cgBg:hover {
+	width: 60px;
+	height: 60px;
+	margin-left: -5px;
+	margin-top: -5px;
+	cursor: pointer;
+}
+
+img.cgIcon.active, img.cgBg.active {
+	width: 60px;
+	height: 60px;
+	margin-left: -5px;
+	margin-top: -5px;
+	opacity: 1;
+}
+
+img.cgIcon.Start {
+	/*left: 37px;*/
+    left: 36px;
+}
+
+img.cgIcon.SoftwareDevelopment {
+	/*left: 187px;*/
+    left: 186px;
+}
+
+img.cgIcon.WhatWeDo {
+	/*left: 337px;*/
+    left: 336px;
+}
+
+img.cgIcon.LifeAtEpic {
+	/*left: 487px;*/
+    left: 486px;
+}
+
+img.cgIcon.Madison {
+    /*left: 637px;*/
+	left: 636px;
+}
+
+img.cgIcon.Benefits {
+    /*left: 787px;*/
+	left: 786px;
+}
+
+img.cgIcon.Jobs {
+	left: 937px;
+}
+
+div#footer {
+    position: fixed;
+    bottom: 0px;
+    background-color: white;
+}
+
+@media only screen and (max-width: 640px) {
+    a#interested {
+        background-color: #ba122b;
+        color: white;
+    }
+
+    div.blurbBox div.subHeader {
+        margin-top: -.5rem;
+    }
+
+    div.blurbBox span.blurbText {
+        font-size: 1rem;
+    }
+
+    div.blurbBox,
+    div.frame.start div.blurbBox {
+        width: 33%;
+        min-width: 280px;
+        padding-top: 75px;
+        height: auto;
+    }
+
+    div.frame.start div.blurbBox {
+        min-width: 240px;
+    }
+
+    div#applyNowContainer {
+        padding-top: 1rem;
+        font-size: 1rem;
+        margin-bottom: 25px;
+    }
+
+    div.blurbBox div.megaHeader {
+        font-size: 42px;
+    }
+
+    div.caption {
+        display: none;
+    }
+
+    div.frame.start {
+        /*background-image: url('../Images/Home/redesign/home-slide-mobile.jpg?ver=1.0.5739.22391');*/
+        background-image: url('../Images/Home/redesign/home-slide-mobile.jpg?ver=1.0.5739.22391');
+    }
+
+    div.frame.whatWeDo {
+        background-image: url('/Images/Home/redesign/home-slide-mobile-whatwedo.jpg?ver=1.0.5739.22391');
+    }
+
+    div.frame.lifeAtEpic {
+        /*background-image: url('/Images/Home/redesign/cp-home-lifeatepicsmall.jpg?ver=1.0.5739.22391');*/
+        background-image: url('/Images/Home/redesign/home-slide-lifeatepic-ugm-mobile.jpg?ver=1.0.5739.22391');
+    }
+
+    div.frame.createCode {
+        background-image: url('/Images/Home/redesign/homesoftwaredev-slide-mobile.jpg?ver=1.0.5739.22391');
+    }
+
+    div.frame.madison {
+	    background-image: url('../Images/Home/redesign/cphomemadison-slide-mobile.jpg?ver=1.0.5739.22391');
+    }
+
+    div.frame.benefits {
+        background-image: url('../Images/Home/redesign/cphomebenefits-2-mobile.jpg?ver=1.0.5739.22391');
+    }
+
+    div.frame.jobs {
+        /*background-image: url('/Images/Home/redesign/home-slide-jobs-mobile.jpg?ver=1.0.5739.22391');*/
+        background-image: url('/Images/Home/redesign/cp-home-jobsnewsmall.jpg?ver=1.0.5739.22391');
+    }
+
+    div.frame div.blurbBox {
+        left: 1rem;
+        top: 65px;
+    }
+}
+
+@media only screen and (max-width: 640px) and (max-height: 400px) {
+    div.frame:not(.start) div.blurbBox {
+        padding-top: 0px;
+        padding-left: .5rem;
+        padding-right: .5rem;
+        width: 300px;
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    div.frame div.blurbBox {
+        padding: 10px;
+    }
+
+    div#applyNowContainer {
+        margin-bottom: 30px;
+    }
+
+    div.awardLine {
+        margin-top: .5rem;
+    }
+
+    div#interestedContainer {
+        margin-bottom: .5rem;
+    }
+
+    div#cssmenu {
+        
+    }
+
+    div#mainContent.Careers3 div#cardiogram {
+	    z-index: 5;
+	    bottom: 0px;
+        left: 0;
+	    width: 100%;
+	    /*max-width: 1920px;*/
+	    opacity: .85;
+    }
+
+    div#footer {
+        display: none;
+    }
+
+    ul#cgIconList {
+        list-style: none;
+        padding-left: 15px;
+        padding-right: 15px;
+        background-color: white;
+        margin: auto;
+        height: 54px;
+    }
+
+    li.cgIcon {
+        /*display: inline-block;*/
+        float: left;
+        width: 16.65%;
+        position: relative;
+        font-size: 34px;
+    }
+
+    li.cgIcon.lastIcon {
+        width: 0px;
+    }
+
+    li.cgIcon > span.cgIconChar {
+        margin-left: -15px;
+        cursor: pointer;
+        position: relative;
+        background-color: white;
+        z-index: 1;
+        transition: .25s all ease;
+        color: #FFD8D8;
+    }
+
+    li.cgIcon.active > span.cgIconChar {
+        color: #ba122b;
+    }
+
+    li.cgIcon > span.cgIconChar:hover {
+        color: #ba122b;
+    }
+
+    li.cgIcon > span.cgIconChar:before {
+        /*content: "\2297 \25C9 \25CE";*/
+        content: "\25CE"; /*9678*/
+        content: "\25C7";
+    }
+
+    li.cgIcon.current > span.cgIconChar:before {
+        content: "\25C9"; /*9673*/
+        content: "\25C6";
+    }
+
+    /*temp section for new icons*/
+
+    li.cgIcon > div.cgIconChar {
+        margin-left: -15px;
+        cursor: pointer;
+        position: relative;
+        background-color: white;
+        z-index: 1;
+        transition: .5s all ease;
+        color: #FFD8D8;
+    }
+
+    li.cgIcon.active > div.cgIconChar {
+        color: #ba122b;
+    }
+
+    li.cgIcon > div.cgIconChar:hover {
+        color: #ba122b;
+    }
+
+    li.cgIcon > div.cgIconChar:before {
+        /*content: "\2297 \25C9 \25CE";*/
+        content: "\25CE"; /*9678*/
+    }
+
+    li.cgIcon.current > div.cgIconChar:before {
+        content: "\25C9"; /*9673*/
+    }
+
+    /*end temp section for new icons*/
+
+    li.cgIcon > div.dotPath,
+    li.cgIcon > div.activePath {
+        position: absolute;
+        top: 50%;
+        margin-top: -1px;
+        height: 0px;
+        left: 0;
+        right: 0;
+    }
+
+    li.cgIcon > div.dotPath {
+        border: 1px solid #d8d9da;
+    }
+
+    li.cgIcon > div.activePath {
+        border: 1px solid #ba122b;
+        left: 0;
+        right: 100%;
+        transition: right .7s ease;
+    }
+
+    li.cgIcon.active > div.activePath {
+        right: 0;
+    }
+
+    li.cgIcon.current > div.activePath {
+        right: 100%;
+    }
+}
+
+/* medium screen */
+@media only screen and (min-width: 640px) and (max-width: 1024px) {
+    ul#cgIconList {
+        max-width: 840px;
+        padding-left: 30px;
+        padding-right: 30px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    div.blurbBox,
+    div.frame.start div.blurbBox {
+        padding-top: 75px;
+        left: 25px;
+    }
+
+    div.blurbBox {
+        width: 350px;
+    }
+
+    div.frame.start div.blurbBox {
+        width: 250px;
+    }
+
+    div#applyNowContainer {
+        padding-top: 1rem;
+        font-size: 1rem;
+        margin-bottom: 30px;
+    }
+
+    div.caption {
+        display: none;
+    }
+
+    div.frame.start {
+        background-image: url('../Images/Home/redesign/home-slide-medium.jpg?ver=1.0.5739.22391');
+    }
+
+    div.frame.whatWeDo {
+        background-image: url('/Images/Home/redesign/home-slide-medium-whatwedo.jpg?ver=1.0.5739.22391');
+    }
+
+    div.frame.lifeAtEpic {
+        /*background-image: url('/Images/Home/redesign/cp-home-lifeatepicmedium.jpg?ver=1.0.5739.22391');*/
+        background-image: url('/Images/Home/redesign/home-slide-lifeatepic-ugm-medium.jpg?ver=1.0.5739.22391');
+    }
+
+    div.frame.createCode {
+        background-image: url('/Images/Home/redesign/homesoftwaredev-slide-medium.jpg?ver=1.0.5739.22391');
+    }
+
+    div.frame.madison {
+	    background-image: url('../Images/Home/redesign/cphomemadison-slide-medium.jpg?ver=1.0.5739.22391');
+    }
+
+    div.frame.benefits {
+        background-image: url('../Images/Home/redesign/cphomebenefits-2-medium.jpg?ver=1.0.5739.22391');
+    }
+
+    div.frame.jobs {
+        /*background-image: url('/Images/Home/redesign/home-slide-medium-jobs.jpg?ver=1.0.5739.22391');*/
+        background-image: url('/Images/Home/redesign/cp-home-jobsnewmedium.jpg?ver=1.0.5739.22391');
+    }
+}
+
+/* formerly medium - review later if not necessary*/
+@media only screen and (min-width: 99999px) {
+    img.cgBg {
+        display: inherit; /*hide by default*/
+    }
+
+    img.cgIcon {
+        opacity: initial;
+        border: 2px solid #ba122b;
+        height: 60px;
+        width: 60px;
+        /*margin-left: -30px;*/
+        padding: 15px;
+        background-color: white;
+        top: 10px;
+    }
+
+    img.cgIcon.active {
+        margin: auto;
+        background-color: #ffd8d8;
+        /*border: 2px solid black;*/
+    }
+
+    img.cgIcon.current {
+        padding: initial;
+    }
+
+    img.cgIcon:hover {
+        margin: auto;
+        /*background-color: #ffd8d8;*/
+        padding: initial;
+    }
+
+    div#mainContent.Careers3 div#cardiogram {
+	    z-index: 5;
+	    bottom: 0px;
+	    left: 50%;
+	    margin-left: -512px;
+	    width: 1024px;
+	    /*max-width: 1920px;*/
+	    height: 70px;
+	    opacity: .85;
+        background: -moz-linear-gradient(top,  rgba(255,255,255,0) 0%, rgba(255,255,255,0.6) 30%, rgba(255,255,255,1) 100%); /* FF3.6+ */
+        background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(255,255,255,0)), color-stop(30%,rgba(255,255,255,0.6)), color-stop(100%,rgba(255,255,255,1))); /* Chrome,Safari4+ */
+        background: -webkit-linear-gradient(top,  rgba(255,255,255,0) 0%,rgba(255,255,255,0.6) 30%,rgba(255,255,255,1) 100%); /* Chrome10+,Safari5.1+ */
+        background: -o-linear-gradient(top,  rgba(255,255,255,0) 0%,rgba(255,255,255,0.6) 30%,rgba(255,255,255,1) 100%); /* Opera 11.10+ */
+        background: -ms-linear-gradient(top,  rgba(255,255,255,0) 0%,rgba(255,255,255,0.6) 30%,rgba(255,255,255,1) 100%); /* IE10+ */
+        background: linear-gradient(to bottom,  rgba(255,255,255,0) 0%,rgba(255,255,255,0.6) 30%,rgba(255,255,255,1) 100%); /* W3C */
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ffffff', endColorstr='#ffffff',GradientType=0 ); /* IE6-9 */
+
+        /*overflow-y: hidden;*/
+        overflow: hidden;
+    }
+
+    div#footer {
+        display: none;
+    }
+
+    div#cardiogramContent {
+        position: absolute;
+        left: 50%;
+        margin-left: -320px;
+        width: 640px;
+        /*background-color: green;
+        border: 1px solid black;*/
+    }
+
+    /*img.cgIcon {
+        top: initial;
+        bottom: -25px;
+        opacity: 1;
+    }
+
+    img.cgIcon:hover {
+        bottom: 0px;
+    }
+
+    img.cgIcon.active {
+	    bottom: 0px;
+    }*/
+
+    img.cgIcon.Start, img.cgBg.Start {
+	    left: 20px;
+    }
+
+    img.cgIcon.SoftwareDevelopment, img.cgBg.SoftwareDevelopment {
+	    left: 110px;
+    }
+
+    img.cgIcon.WhatWeDo, img.cgBg.WhatWeDo {
+	    left: 200px;
+    }
+
+    img.cgIcon.LifeAtEpic, img.cgBg.LifeAtEpic {
+	    left: 290px;
+    }
+
+    img.cgIcon.Madison, img.cgBg.Madison {
+	    left: 380px;
+    }
+
+    img.cgIcon.Benefits, img.cgBg.Benefits {
+	    left: 470px;
+    }
+
+    img.cgIcon.Jobs, img.cgBg.Jobs {
+	    left: 560px;
+    }
+}
+
+/* large size screens */
+@media only screen and (min-width: 1025px) {
+    div#mainContent.Careers3 div#cardiogram {
+	    z-index: 5;
+	    bottom: 41px;
+	    left: 50%;
+	    margin-left: -512px;
+	    width: 1024px;
+	    /*max-width: 1920px;*/
+	    height: 70px;
+	    opacity: .85;
+    }
+
+    div.blurbBox div.subHeader {
+        margin-bottom: 1rem;
+    }
+
+    div.awardLine {
+        margin-top: 1rem;
+    }
+
+    div.blurbBox {
+        width: 450px;
+    }
+}
+
+div#mainContainer.Careers {
+	position: relative;
+	height: 1700px;
+}
+
+div#mainContent.Careers {
+	position: relative;
+	max-width: 1440px;
+	margin: 0px auto;
+}

@@ -1,0 +1,41 @@
+img#bar{
+	width: 60%;
+	height: 20%;
+	position: absolute;
+	left: 20%;
+	top: 85%;
+	z-index: 100;
+}
+
+div.frame img{
+	width: 60%;
+	position: absolute;
+	left: 20%;
+	top: 0px;
+	z-index: -1;
+}
+.blurbText{
+	color: #000;
+	text-shadow: 2px 2px 2px #ccc;
+}
+div.frame img#l{
+	width: 50px !important;
+	height: 50px !important;
+	position: absolute !important;
+	left: 26% !important;
+	top: 18% !important;
+	z-index: 100;
+}
+/*div.frame div.blurbBox{
+	background-color: transparent !important;
+}
+
+.start{
+	background-size:100%;
+	background-image: url(./img/home_page.jpg) !important; 
+}
+
+.calendar{
+	background-size:100%;
+	background-image: url(./img/calendar.jpg) !important; 
+}*/
