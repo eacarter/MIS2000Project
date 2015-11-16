@@ -50,6 +50,9 @@ $(document).ready(function () {
 
     document.ontouchmove = function (e) { e.preventDefault() };
 
+    $(window).scroll(function () {
+        timedMove();
+    });
 
     $(window).resize(function () {
         frameHandleResize();

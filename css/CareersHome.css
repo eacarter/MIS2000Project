@@ -231,6 +231,8 @@ div.tubackground h2{
 div#mainContainer.tutorpage {
     /*height: calc(100vh - 41px);*/
     height: 93vh;
+      overflow-x: hidden;
+      position: absolute;
     left: 0;
     right: 0;
    margin-top: 55px;
@@ -240,6 +242,7 @@ div#mainContainer.tutorpage {
 }
 
 div#mainContent.Careers3 {
+	position: absolute;
 	left: 0px;
 	height: 100%;
 	/*width: calc(100vw * 4);*/
@@ -343,6 +346,7 @@ div#cardiogramContent {
 /*div#mainContainer {}*/
 
 div#mainContent.Careers3 div#cardiogram.fix {
+	position: fixed;
 }
 
 div#footer.Careers3 div#extraLinks {
@@ -544,7 +548,7 @@ div#footer {
     }
 
     div#cssmenu {
-        
+        position: fixed;
     }
 
     div#mainContent.Careers3 div#cardiogram {

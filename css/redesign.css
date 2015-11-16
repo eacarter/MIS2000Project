@@ -255,7 +255,7 @@ div.fullWidth > div.row > img {
 }
 
 div#mainContainer {
-
+    position: relative;
 }
 
 div#navContent {
@@ -343,7 +343,6 @@ div#navContent {
 
     #cssmenu > ul > li.preload {
         display: none;
-
     }
 }
 
