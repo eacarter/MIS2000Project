@@ -251,6 +251,42 @@ div#mainContent.Careers3 {
 	/*background-color: green;*/
 }
 
+div.left{ 
+    width: 200px;
+    height:1000px;
+    color: #ffffff;
+    background-color: #000000;
+    float: left; 
+    margin-left: 2.5%;   
+    text-align: center;
+}
+
+div.left h1{
+    color: #ffffff;
+}
+
+div.center{
+    margin-top: 5%;
+    margin-left: 20%;
+    margin-right: 5%;
+}
+
+.headbox{
+    text-align: center;
+}
+
+.aisimage{
+    width: 100px;
+    float: left;
+
+}
+
+.itoimage{
+    width:100px;
+    float: left;
+}
+
+
 div.transbox{
   background-color: #FFFFFF;
   border: 1px solid black;
