@@ -125,13 +125,13 @@ ul#menu-list > li {
 
 #cssmenu > ul > li:not(#logoli):hover,
 ul#menu-list > li:not(#logoli):hover {
-	border-bottom: 2px solid #ba122b;
+	border-bottom: 2px solid #f1c40f;
 	padding-bottom: 0px;
 }
 
 #cssmenu > ul > li > a:hover,
 ul#menu-list > li > a:hover {
-	color: #ba122b;
+	color: #f1c40f;
 }
 
 #cssmenu > ul > li.logoli:hover,
@@ -155,7 +155,7 @@ ul#menu-list > li.logoli:hover {
   height: 0;
   width: 0;
   border: 5px solid transparent;
-  border-bottom-color: #C52B2C;
+  border-bottom-color: #f1c40f;
   -webkit-transition: all 0.25s ease-out;
   -moz-transition: all 0.25s ease-out;
   -ms-transition: all 0.25s ease-out;
