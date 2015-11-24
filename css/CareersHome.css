@@ -251,14 +251,13 @@ div#mainContent.Careers3 {
 	/*background-color: green;*/
 }
 
-div.left{ 
+div.left { 
     width: 200px;
-    height:1000px;
-    color: #ffffff;
-    background-color: #000000;
+    height:100%;
     float: left; 
     margin-left: 2.5%;   
-    text-align: center;
+    
+    position: fixed;
 }
 
 iframe{
@@ -268,8 +267,19 @@ iframe{
 
 }
 
+div.left li, a:visited{
+    list-style: none;
+    text-decoration: none;
+    padding-top: 10px;
+    color: #7f8c8d;
+}
+div.left a{
+    list-style: none;
+    text-decoration: none;
+    color: #000000;
+}
 div.left h1{
-    color: #ffffff;
+    font-family: sans-serif;
 }
 
 div.center{
