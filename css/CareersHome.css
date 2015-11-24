@@ -7,38 +7,6 @@ ul#menu-list {
     position: fixed;
 }
 
-div.frame.start {
-	/*background-image: url('../Images/Home/redesign/Homepage_Main1_Small.png?ver=1.0.5739.22391');*/
-    background-image: url('../Images/Home/redesign/home-slide-full.jpg?ver=1.0.5739.22391');
-}
-
-div.frame.createCode {
-    background-image: url('../Images/Home/redesign/homesoftwaredev.jpg?ver=1.0.5739.22391');
-}
-
-div.frame.madison {
-	background-image: url('../Images/Home/redesign/cphomemadison.jpg?ver=1.0.5739.22391');
-}
-
-div.frame.whatWeDo {
-    background-image: url('/Images/Home/redesign/home-slide-full-whatwedo.jpg?ver=1.0.5739.22391');
-}
-
-div.frame.lifeAtEpic {
-    /*background-image: url('/Images/Home/redesign/home-slide-full-lifeatepic.jpg?ver=1.0.5739.22391');*/
-    /*background-image: url('/Images/Home/redesign/cp-home-lifeatepiclarge.jpg?ver=1.0.5739.22391');*/
-    background-image: url('/Images/Home/redesign/home-slide-lifeatepic-ugm-full.jpg?ver=1.0.5739.22391');
-}
-
-div.frame.benefits {
-    /*background-image: url('../Images/Home/redesign/cphomebenefits-2.jpg?ver=1.0.5739.22391');*/
-    background-image: url('/Images/Home/redesign/home-slide-benefits-beach-full.jpg?ver=1.0.5739.22391');
-}
-
-div.frame.jobs {
-    /*background-image: url('/Images/Home/redesign/cp-home-jobs2large.jpg?ver=1.0.5739.22391');*/
-    background-image: url('/Images/Home/redesign/cp-home-jobsnewlarge.jpg?ver=1.0.5739.22391');
-}
 
 div.frame div.blurbBox {
 	background-color: white;
@@ -258,6 +226,36 @@ div.left {
     margin-left: 2.5%;   
     
     position: fixed;
+}
+
+div.leftcareers{ 
+    width: 200px;
+    height:100%;
+    float: left; 
+    margin-left: 2.5%;   
+    
+}
+
+.dep{
+    position: absolute;
+    opacity: 0;
+    margin-right: 50%;
+    color: #fff;
+    visibility: hidden;
+}
+
+div.leftcareers li:hover  .dep{
+    visibility: visible;
+    opacity: 1;
+    background-color: #000000;
+    color: #ffffff;
+}
+
+div.leftcareers li{
+    list-style: none;
+    text-decoration: none;
+    padding-top: 10px;
+    color: #7f8c8d;
 }
 
 iframe{
