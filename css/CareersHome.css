@@ -305,9 +305,15 @@ div.center{
     margin-left: 5%;
 }
 
+div.centermass{
+    margin-top: 5%;
+    margin-right: 5%;
+    margin-left: 20%;
+    }
+
 div.center h1{
     text-align: center;
-    padding-top: 25px;
+
 }
 
 div.center .headbox1{
