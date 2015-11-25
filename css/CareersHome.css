@@ -229,34 +229,53 @@ div.left {
 }
 
 div.leftcareers{ 
-    width: 200px;
+    width: 100%;
     height:100%;
     float: left; 
-    margin-left: 2.5%;   
+     
     
 }
 
 .dep{
     position: absolute;
     opacity: 0;
-    margin-right: 50%;
+    margin: 40%;
     color: #fff;
     visibility: hidden;
 }
 
-div.leftcareers li:hover  .dep{
+.h1{
+    text-align: center;
+     margin: 2.5% 25% 5% 25%;
+}
+
+div.leftcareers li:hover  .h1{
+    visibility: hidden;
+    opacity: 0;
+}
+
+div.leftcareers li:hover  .dep {
     visibility: visible;
     opacity: 1;
+    margin: 2.5% 25% 5% 25%;
     background-color: #000000;
     color: #ffffff;
 }
 
 div.leftcareers li{
+
     list-style: none;
+    display: inline;
+    text-align: center;
     text-decoration: none;
-    padding-top: 10px;
+    padding-right: 10px;
     color: #7f8c8d;
 }
+
+div.leftcareers li:hover{
+    color: #f1c40f;
+}
+
 
 iframe{
     margin-top: 3.5%;
@@ -282,8 +301,31 @@ div.left h1{
 
 div.center{
     margin-top: 5%;
-    margin-left: 20%;
     margin-right: 5%;
+    margin-left: 5%;
+}
+
+div.center h1{
+    text-align: center;
+    padding-top: 25px;
+}
+
+div.center .headbox1{
+    float: left;
+    width: 47%;
+    margin-top: 0;
+    overflow: hidden;
+}
+
+div.center .headbox2{
+   margin: 0 25px 0 25px;
+}
+
+div.center .headbox3{
+    float: right;
+    width: 47%;
+    margin-top: 0;
+    overflow: hidden;
 }
 
 .headbox{
