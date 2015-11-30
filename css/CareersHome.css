@@ -244,6 +244,11 @@ div.leftcareers{
     visibility: hidden;
 }
 
+.colorchange{
+	color: #f1c40f;
+	font-weight: bold;
+}
+
 .h1{
     text-align: center;
      margin: 2.5% 25% 5% 25%;
