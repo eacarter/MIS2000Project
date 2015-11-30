@@ -238,6 +238,7 @@ div.leftcareers{
 
 .dep{
     position: absolute;
+    float: left;
     opacity: 0;
     margin: 40%;
     color: #fff;
@@ -251,7 +252,13 @@ div.leftcareers{
 
 .h1{
     text-align: center;
+     /*margin: 2.5% 25% 5% 25%;*/
+}
+
+.h12{
+      text-align: center;
      margin: 2.5% 25% 5% 25%;
+     color: #ffffff;
 }
 
 div.leftcareers li:hover  .h1{
@@ -262,7 +269,7 @@ div.leftcareers li:hover  .h1{
 div.leftcareers li:hover  .dep {
     visibility: visible;
     opacity: 1;
-    margin: 2.5% 25% 5% 25%;
+    margin: 2.5% 5% ;
     background-color: #000000;
     color: #ffffff;
 }
@@ -274,7 +281,7 @@ div.leftcareers li{
     text-align: center;
     text-decoration: none;
     padding-right: 10px;
-    color: #7f8c8d;
+    color: #000000;
 }
 
 div.leftcareers li:hover{
