@@ -312,14 +312,22 @@ div.center{
 
 div.centermass{
     margin-top: 5%;
+    padding-top: 30px;
     margin-right: 5%;
     margin-left: 20%;
     }
+div.centermass1{
+    padding-top: 30px;
+    margin-right: 5%;
+    margin-left: 20%;
+}
 
 div.center h1{
     text-align: center;
 
 }
+
+
 
 div.center .headbox1{
     float: left;
@@ -348,6 +356,8 @@ div.center .headbox3{
     float: left;
 
 }
+
+
 
 .itoimage{
     width:100px;
@@ -967,7 +977,7 @@ div#footer {
 	    opacity: .85;
     }
 
-    div.blurbBox div.subHeader {
+    div.blurbBox div.sub {
         margin-bottom: 1rem;
     }
 
