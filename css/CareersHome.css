@@ -394,31 +394,33 @@ margin-right: 10%;
 margin-left: 10%;
 color: #ffffff;
 background-color:#000000 ;
+min-height: 200px;
+margin-bottom:20px;
 }
 
 div.tubox img{
 float: left;
 height: 200px;
+width: 200px;
 -webkit-transform: rotate(180deg);
-
+margin-right: 10px;
 }
 
 #romako{
 -webkit-transform: rotate(180deg); 
 }
 
-div.tubox1 img{
-float:left;
-height: 200px;
-}
+
 div.tuexp {
 float: right;
+margin-right: 10px;
 }
 
 div.tupara {
     margin-left: 25%;
     margin-right: 25%;
 }
+
 
 div.background{
 
