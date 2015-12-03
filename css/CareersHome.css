@@ -231,9 +231,51 @@ div.left {
 div.leftcareers{ 
     width: 100%;
     height:100%;
-    float: left; 
-     
+    float: left;   
+}
+
+div.calright{
+    float: right;
+    width: 48%;
+     margin-top: 3.5%;
+}
+
+div.calright h1{
+    font-size: 40pt;
+}
+
+div.event ul {
+    list-style: none;
+}
+
+div.event, h2{
+    background-color: #000000;
+    color: #ffffff;
+}
+
+div.event
+
+#slide{
+    width: 0px;
+    background-color:white;
+    -webkit-transition: .4s ease-out 4s; 
+    -moz-transition: .4s ease-out 4s; 
+    -o-transition: .4s ease-out 4s;  
+    transition: .4s ease-out 4s; 
+}
+
+#slide:hover{
+    -webkit-transition: .4s ease-out; 
+    -moz-transition: .4s ease-out;
+    -o-transition: .4s ease-out;  
+    transition: .4s ease-out;
+    width: 600px; 
+    background-color: black;
     
+}
+
+#slide p, ul{
+    color: white;
 }
 
 .dep{
@@ -290,8 +332,10 @@ div.leftcareers li:hover{
 
 
 iframe{
+    position: fixed;
     margin-top: 3.5%;
-    width:50%;
+    float: left;
+    width: 50%;
     height: 1000px;
 
 }
