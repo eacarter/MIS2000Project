@@ -242,6 +242,27 @@ div.calright{
 
 div.calright h1{
     font-size: 40pt;
+    font-weight: 800;
+    color: #f1c40f;
+}
+
+div.center img {
+    width: 200px;
+}
+
+div.center ul{
+    text-align: center;
+}
+
+div.headbox1 h3{
+    float: right;
+    font-size: 60pt;
+}
+
+div.center li{
+    display: inline;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
 div.event ul {
@@ -252,7 +273,7 @@ div.event, h2{
     background-color: #000000;
     color: #ffffff;
 }
-
+/* do not delete this tage*/
 div.event
 
 #slide{
@@ -359,6 +380,11 @@ div.center{
     margin-top: 5%;
     margin-right: 5%;
     margin-left: 5%;
+
+}
+
+div.center ul{
+    padding-bottom: 50px;
 }
 
 div.centermass{
@@ -387,9 +413,7 @@ div.center .headbox1{
     overflow: hidden;
 }
 
-div.center .headbox2{
-   margin: 0 25px 0 25px;
-}
+
 
 div.center .headbox3{
     float: right;
