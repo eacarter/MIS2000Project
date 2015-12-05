@@ -351,6 +351,64 @@ div.leftcareers li:hover{
     color: #f1c40f;
 }
 
+div.drop{
+    margin-top: 5%;
+}
+
+
+.drop_menu {
+    background:#000000;
+    padding:0;
+    margin:0;
+    list-style-type:none;
+    height:30px;
+}
+
+.drop_menu li { 
+    float:left; 
+}
+
+.drop_menu li a {
+    padding:9px 20px;
+    display:block;
+    color:#f1c40f;
+    text-decoration:none;
+    font:12px arial, verdana, sans-serif;
+}
+
+.drop_menu ul {
+    position:absolute;
+    left:-9999px;
+    top:-9999px;
+    list-style-type:none;
+}
+
+.drop_menu li:hover { 
+    position:relative; 
+    background:#000000; 
+}
+
+.drop_menu li:hover ul {
+    left:0px;
+    top:30px;
+    background:#000000;
+    padding:0px;
+}
+
+.drop_menu li:hover ul li a {
+    padding:5px;
+    display:block;
+    width:168px;
+    text-indent:15px;
+
+    background-color:#cccccc;
+}
+
+.drop_menu li:hover ul li a:hover { 
+    background:#000000; 
+}
+
+
 
 iframe{
     position: fixed;
