@@ -18,7 +18,7 @@ div.frame img{
 	color: #000;
 	text-shadow: 2px 2px 2px #ccc;
 }
-div.frame img#l{
+div.frame img.l{
 	width: 50px !important;
 	height: 50px !important;
 	position: absolute !important;
@@ -32,10 +32,10 @@ div.frame img#l{
 
 .start{
 	background-size:100%;
-	background-image: url(./img/home_page.jpg) !important; 
+	background-image: url(./img/home_page.jpg) !important;
 }
 
 .calendar{
 	background-size:100%;
-	background-image: url(./img/calendar.jpg) !important; 
+	background-image: url(./img/calendar.jpg) !important;
 }*/

@@ -186,7 +186,7 @@ div#topBannerContainer.row.Careers3 {
 div#mainContainer.Careers3 {
 	/*height: calc(100vh - 41px);*/
     height: 93vh;
-	  
+
     left: 0;
     right: 0;
    margin-top: 55px;
@@ -204,7 +204,7 @@ div#mainContainer.tutorpage {
     left: 0;
     right: 0;
    margin-top: 55px;
-   
+
     background-color: #f1c40f;
 
 }
@@ -219,19 +219,19 @@ div#mainContent.Careers3 {
 	/*background-color: green;*/
 }
 
-div.left { 
+div.left {
     width: 200px;
     height:100%;
-    float: left; 
-    margin-left: 2.5%;   
-    
+    float: left;
+    margin-left: 2.5%;
+
     position: fixed;
 }
 
-div.leftcareers{ 
+div.leftcareers{
     width: 100%;
     height:100%;
-    float: left;   
+    float: left;
 }
 
 div.calright{
@@ -276,26 +276,26 @@ div.event, h2{
 /* do not delete this tage*/
 div.event
 
-#slide{
+.slide{
     width: 0px;
     background-color:white;
-    -webkit-transition: .4s ease-out 4s; 
-    -moz-transition: .4s ease-out 4s; 
-    -o-transition: .4s ease-out 4s;  
-    transition: .4s ease-out 4s; 
+    -webkit-transition: .4s ease-out 4s;
+    -moz-transition: .4s ease-out 4s;
+    -o-transition: .4s ease-out 4s;
+    transition: .4s ease-out 4s;
 }
 
-#slide:hover{
-    -webkit-transition: .4s ease-out; 
+.slide:hover{
+    -webkit-transition: .4s ease-out;
     -moz-transition: .4s ease-out;
-    -o-transition: .4s ease-out;  
+    -o-transition: .4s ease-out;
     transition: .4s ease-out;
-    width: 600px; 
+    width: 600px;
     background-color: black;
-    
+
 }
 
-#slide p, ul{
+.slide p, ul{
     color: white;
 }
 
@@ -445,7 +445,7 @@ div.transbox{
   border: 1px solid black;
   opacity: .6;
   margin-right: 60%;
-  
+
   margin-left: 5%;
   padding-right: 50px;
   padding-left: 50px;
@@ -475,7 +475,7 @@ margin-right: 10px;
 }
 
 #romako{
--webkit-transform: rotate(180deg); 
+-webkit-transform: rotate(180deg);
 }
 
 
