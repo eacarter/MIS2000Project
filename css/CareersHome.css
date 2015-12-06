@@ -397,10 +397,10 @@ div.drop{
 .drop_menu li:hover ul li a {
     padding:5px;
     display:block;
-    width:168px;
-    text-indent:15px;
+    width:100px;
+    text-indent:1px;
 
-    background-color:#cccccc;
+    background-color:#000000;
 }
 
 .drop_menu li:hover ul li a:hover { 
@@ -513,7 +513,6 @@ div.tubox{
 margin-right: 10%;
 margin-left: 10%;
 color: #ffffff;
-background-color:#000000 ;
 min-height: 200px;
 margin-bottom:20px;
 }
