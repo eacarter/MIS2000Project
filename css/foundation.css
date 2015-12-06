@@ -471,7 +471,6 @@ select {
     margin-bottom: 0; }
 
   .top-bar-section {
-    transition: none 0 0;
     left: 0 !important; }
     .top-bar-section ul {
       width: auto;
@@ -1008,4 +1007,3 @@ select {
       clear: none; }
     .large-block-grid-12 > li:nth-of-type(12n+1) {
       clear: both; } }
-
