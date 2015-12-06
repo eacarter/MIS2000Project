@@ -203,7 +203,7 @@ div#mainContainer.tutorpage {
     right: 0;
    margin-top: 55px;
 
-    background-color: #f1c40f;
+
 
 }
 
@@ -366,7 +366,7 @@ div.drop{
 }
 
 .drop_menu li a {
-    padding:9px 20px;
+    padding:9px;
     display:block;
     color:#f1c40f;
     text-decoration:none;
@@ -482,8 +482,6 @@ div.center .headbox3{
 
 }
 
-
-
 .itoimage{
     width:100px;
     float: left;
@@ -510,7 +508,7 @@ div.transbox p{
 div.tubox{
 margin-right: 10%;
 margin-left: 10%;
-color: #ffffff;
+color: #000000;
 min-height: 200px;
 margin-bottom:20px;
 }
@@ -528,9 +526,14 @@ margin-right: 10px;
 }
 
 
-div.tuexp {
+div.tuexp  {
 float: right;
+color: #000000;
 margin-right: 10px;
+}
+
+div.tuexp li{
+    color:#000000;
 }
 
 div.tupara {
@@ -574,8 +577,6 @@ div#mainContent.Careers3 div.frame {
 }
 
 div.tubackground{
-
-    background-color: #f1c40f;
     height:100%;
 }
 
