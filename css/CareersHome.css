@@ -38,9 +38,9 @@ svg#bowTie {
     z-index: -1;
 }
 
-svg#bowTie path {
+/*svg#bowTie path {
     fill: white;
-}
+}*/
 
 div.blurbBox div.megaHeader {
     color: #ba122b;
@@ -133,7 +133,6 @@ div.caption-fade-black {
     background: -o-linear-gradient(top,  rgba(0,0,0,1) 0%,rgba(0,0,0,0) 100%); /* Opera 11.10+ */
     background: -ms-linear-gradient(top,  rgba(0,0,0,1) 0%,rgba(0,0,0,0) 100%); /* IE10+ */
     background: linear-gradient(to bottom,  rgba(0,0,0,1) 0%,rgba(0,0,0,0) 100%); /* W3C */
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#00000000',GradientType=0 ); /* IE6-9 */
 }
 
 div.caption-fade-white {
@@ -149,7 +148,6 @@ div.caption-fade-white {
     background: -o-linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(255,255,255,0) 100%); /* Opera 11.10+ */
     background: -ms-linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(255,255,255,0) 100%); /* IE10+ */
     background: linear-gradient(to bottom,  rgba(255,255,255,1) 0%,rgba(255,255,255,0) 100%); /* W3C */
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#00ffffff',GradientType=0 ); /* IE6-9 */
 }
 
 div.caption {
@@ -363,8 +361,8 @@ div.drop{
     height:30px;
 }
 
-.drop_menu li { 
-    float:left; 
+.drop_menu li {
+    float:left;
 }
 
 .drop_menu li a {
@@ -382,9 +380,9 @@ div.drop{
     list-style-type:none;
 }
 
-.drop_menu li:hover { 
-    position:relative; 
-    background:#000000; 
+.drop_menu li:hover {
+    position:relative;
+    background:#000000;
 }
 
 .drop_menu li:hover ul {
@@ -403,8 +401,8 @@ div.drop{
     background-color:#000000;
 }
 
-.drop_menu li:hover ul li a:hover { 
-    background:#000000; 
+.drop_menu li:hover ul li a:hover {
+    background:#000000;
 }
 
 
@@ -470,7 +468,7 @@ div.center .headbox1{
 
 
 div.center .headbox3{
-    float: right; 
+    float: right;
     width: 47%;
 }
 
@@ -595,17 +593,17 @@ div#footer.Careers3 div#extraLinks {
     display: none;
 }
 
-#cardiogramLines line {
+/*#cardiogramLines line {
 	stroke-width: 2;
-}
+}*/
 
-#cardiogramLines line.gray {
+/*#cardiogramLines line.gray {
 	stroke:rgb(186,186,186);
-}
+}*/
 
-#cardiogramLines line.red {
+/*#cardiogramLines line.red {
 	stroke: #ba122b;
-}
+}*/
 
 #cardiogramLines line.hide {
 	/*display: none;*/
@@ -1030,7 +1028,6 @@ div#footer {
         background: -o-linear-gradient(top,  rgba(255,255,255,0) 0%,rgba(255,255,255,0.6) 30%,rgba(255,255,255,1) 100%); /* Opera 11.10+ */
         background: -ms-linear-gradient(top,  rgba(255,255,255,0) 0%,rgba(255,255,255,0.6) 30%,rgba(255,255,255,1) 100%); /* IE10+ */
         background: linear-gradient(to bottom,  rgba(255,255,255,0) 0%,rgba(255,255,255,0.6) 30%,rgba(255,255,255,1) 100%); /* W3C */
-        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ffffff', endColorstr='#ffffff',GradientType=0 ); /* IE6-9 */
 
         /*overflow-y: hidden;*/
         overflow: hidden;
